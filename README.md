@@ -34,7 +34,11 @@ You can try out any of these tools (or others) and decide which works best for y
 
 ## Dependency Files
 
-There are several ways to track and control the packages installed to a particular environment. The most common (standard) way of doing so is with a `requirements.txt` file
+There are several ways to track and control the packages installed to a particular environment. The most common (standard) way of doing so is with a `requirements.txt` file. This file can be created/managed manually, or automatically created by `pip` based on an active environment (`pip freeze`). Pip can install dependencies from this file via `pip install -r requirements.txt`.
+
+Conda has it's own command and format for creating and using dependency files. This is often named `environment.yaml` (or `environment.yml`) and is created with `conda env export > environment.yaml`. A new environment can be created from file via `conda create -n env_name -f environment.yaml`.
+
+Pipenv also has it's own file format that is actually quite different from the first two. Instead of sticking all packages (manually installed packages and automatically installed requirements) in the same file, it keeps a clean `Pipfile` (toml format) with requested packages (and the versions specified during install), and a separate `Pipfile.lock` with all the sub requirements and specific versions/builds that were used. This is managed via `pipenv install ...` (which both installs the package and immediately adds it to the `Pipfile`).
 
 ## Conda Tutorial
 
