@@ -1,0 +1,35 @@
+name: python_environments
+channels:
+  - defaults
+dependencies:
+  - appnope=0.1.2=py39hecd8cb5_1001
+  - backcall=0.2.0=pyhd3eb1b0_0
+  - ca-certificates=2021.4.13=hecd8cb5_1
+  - certifi=2020.12.5=py39hecd8cb5_0
+  - decorator=5.0.6=pyhd3eb1b0_0
+  - ipython=7.22.0=py39h01d92e1_0
+  - ipython_genutils=0.2.0=pyhd3eb1b0_1
+  - jedi=0.17.2=py39hecd8cb5_1
+  - libcxx=10.0.0=1
+  - libffi=3.3=hb1e8313_2
+  - ncurses=6.2=h0a44026_1
+  - openssl=1.1.1k=h9ed2024_0
+  - parso=0.7.0=py_0
+  - pexpect=4.8.0=pyhd3eb1b0_3
+  - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - pip=21.0.1=py39hecd8cb5_0
+  - prompt-toolkit=3.0.17=pyh06a4308_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pygments=2.8.1=pyhd3eb1b0_0
+  - python=3.9.4=h88f2d9e_0
+  - readline=8.1=h9ed2024_0
+  - setuptools=52.0.0=py39hecd8cb5_0
+  - sqlite=3.35.4=hce871da_0
+  - tk=8.6.10=hb0a8c7a_0
+  - traitlets=5.0.5=pyhd3eb1b0_0
+  - tzdata=2020f=h52ac0ba_0
+  - wcwidth=0.2.5=py_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+prefix: /Users/mfedell/opt/miniconda3/envs/python_environments
